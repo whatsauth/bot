@@ -12,3 +12,5 @@ var DBmongoinfo = atdb.DBInfo{
 }
 
 var Mongoconn = atdb.MongoConnect(DBmongoinfo)
+
+const WAKeyword = "wh4t5auth0"

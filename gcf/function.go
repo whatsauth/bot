@@ -2,9 +2,9 @@ package gcf
 
 import (
 	"github.com/GoogleCloudPlatform/functions-framework-go/functions"
-	"github.com/whatsauth/webhook"
+	"github.com/whatsauth/bot"
 )
 
 func init() {
-	functions.HTTP("WebHook", webhook.Post)
+	functions.HTTP("WebHook", bot.PostWithDB)
 }
