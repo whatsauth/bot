@@ -1,4 +1,4 @@
-package webhook
+package bot
 
 import (
 	"encoding/json"
