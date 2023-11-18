@@ -14,3 +14,7 @@ var DBmongoinfo = atdb.DBInfo{
 var Mongoconn = atdb.MongoConnect(DBmongoinfo)
 
 const WAKeyword = "wh4t5auth0"
+
+var WebHookSecret = os.Getenv("SECRET")
+
+var TokenAPIWA = os.Getenv("TOKEN")

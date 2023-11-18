@@ -29,6 +29,7 @@ type WAMessage struct {
 Pastikan sudah setting environment variabel pada GCF antara lain :
 1. SECRET : sebagai pengaman endpoint GCF webhook yang di tembak dari whatsauth
 2. TOKEN : token yang digunakan untuk menggunakan API WhatsAuth
+3. MONGOSTRING : mongo string database
 3. Buat Cloud Function dan pilih server jakarta indonesia  
    ![image](https://github.com/whatsauth/webhook/assets/11188109/ad72a002-b318-4475-8c85-94b266aaa4a5)
 4. Masukkan variabel environtment SECRET dan TOKEN  
